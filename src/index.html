@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCOS Content Creation Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"></script>
+</head>
+<body>
+    <img src="BCOS-Main-Logo.png" alt="BCOS Logo" class="logo">
+    <button id="info" class="info-button">ℹ</button>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Content Creation Assistant</h1>
+        </div>
+        
+        <div id="chat-messages" class="chat-messages">
+            <div class="message bot-message" dir="rtl">
+                مرحباً! كيف يمكنني مساعدتك في إنشاء أو تحسين محتوى وفقًا لإرشادات BCOS؟
+            </div>
+            <div id="typing-indicator" class="typing-indicator">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>

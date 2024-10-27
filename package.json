@@ -1,0 +1,20 @@
+{
+  "name": "bcos-assistant",
+  "version": "1.0.0",
+  "description": "BCOS Content Creation Assistant",
+  "main": "index.js",
+  "scripts": {
+      "start": "node api/assistant.js",
+      "dev": "nodemon api/assistant.js"
+  },
+  "dependencies": {
+      "express": "^4.18.2",
+      "cors": "^2.8.5",
+      "openai": "^4.28.0",
+      "dotenv": "^16.3.1",
+      "markdown-it": "^14.0.0"
+  },
+  "devDependencies": {
+      "nodemon": "^3.0.2"
+  }
+}
